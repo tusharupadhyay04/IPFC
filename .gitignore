@@ -1,0 +1,59 @@
+# =========================================
+# Node dependencies
+# =========================================
+node_modules/
+
+# =========================================
+# Environment files
+# =========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================================
+# System / Editor files
+# =========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================================
+# Build / Cache
+# =========================================
+dist/
+build/
+.cache/
+tmp/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================================
+# Uploaded documents (backend/src/uploads)
+# NOTE: keep folder, ignore files
+# =========================================
+src/uploads/*
+!src/uploads/.gitkeep
+
+# =========================================
+# Firebase Admin Keys
+# =========================================
+src/config/firebase-key.json
+src/config/firebaseAdmin.json
+*.pem
+*.key
+
+# =========================================
+# Cloudinary Config (optional private key safety)
+# =========================================
+src/config/cloudinary.js
+
+# =========================================
+# Never ignore package-lock.json (important)
+# =========================================
+# DO NOT ADD: package-lock.json
